@@ -1,11 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Profile Maker</title>
+    <link href="{% static 'style.css' %}" rel="stylesheet" > 
   </head>
   <body>
-
+    <h1> Welcome </h1>
+    <a href="/get_form">New</a>
     {% block content %}
     {% endblock %}
 

@@ -1,0 +1,9 @@
+form input { 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 10px; 
+}
+body { 
+    text-align : center; 
+    padding: 10px; 
+}
